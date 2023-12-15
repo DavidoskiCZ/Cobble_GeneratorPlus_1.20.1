@@ -1,6 +1,7 @@
 package net.david.cobblegenplus;
 
 import com.mojang.logging.LogUtils;
+import net.david.cobblegenplus.block.ModBlocks;
 import net.david.cobblegenplus.item.ModCreativeModeTabs;
 import net.david.cobblegenplus.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -33,6 +34,7 @@ public class CobbleGenPlus
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

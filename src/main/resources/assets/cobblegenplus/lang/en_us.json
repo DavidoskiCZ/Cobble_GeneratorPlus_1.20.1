@@ -1,5 +1,28 @@
 {
+
+
   "item.cobblegenplus.testitem": "Test Item",
 
-  "creativetab.test_tab": "Test Tab"
+
+  "item.cobblegenplus.generator_core_complete": "Generator Core",
+  "item.cobblegenplus.generator_core_part4": "Generator Core - Part 4",
+  "item.cobblegenplus.generator_core_part3": "Generator Core - Part 3",
+  "item.cobblegenplus.generator_core_part2": "Generator Core - Part 2",
+  "item.cobblegenplus.generator_core_part1": "Generator Core - Part 1",
+
+  "item.cobblegenplus.high_tech_redstone_components": "High-tech Redstone Components",
+  "item.cobblegenplus.advanced_redstone_components": "Advanced Redstone Components",
+  "item.cobblegenplus.generator_power_intake": "Generator Power Intake",
+  "item.cobblegenplus.generator_powering_system": "Generator Powering System",
+
+  "item.cobblegenplus.generator_casing": "Generator Casing",
+  "item.cobblegenplus.generator_glass": "Generator Glass",
+
+
+  "block.cobblegenplus.nether_star_block": "Nether Star Block",
+
+
+
+  "creativetab.test_tab": "Test Tab",
+  "creativetab.cobblegenplus_tab": "Cobble Gen+"
 }
