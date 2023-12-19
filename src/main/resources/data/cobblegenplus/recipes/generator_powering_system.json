@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "CCCCCCC",
+    "CHGGGHC",
+    "CDHGHRC",
+    "CDDSRRC",
+    "CDHBHRC",
+    "CHBBBHC",
+    "CCCCCCC"
+  ],
+  "key": {
+    "C": {
+      "item": "cobblegenplus:powering_system_casing"
+    },
+    "H": {
+      "item": "cobblegenplus:high_tech_redstone_components"
+    },
+    "G": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "B": {
+      "item": "minecraft:copper_block"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "cobblegenplus:generator_powering_system"
+  }
+}

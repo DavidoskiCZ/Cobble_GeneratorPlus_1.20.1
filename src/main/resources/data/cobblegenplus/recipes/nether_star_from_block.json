@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "misc",
+  "ingredients": [
+    {
+      "item": "cobblegenplus:nether_star_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:nether_star",
+    "count": 9
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#########",
+    "####B####",
+    "###BRB###",
+    "###BRB###",
+    "##BRCRB##",
+    "###BRB###",
+    "###BRB###",
+    "####B####",
+    "#########"
+  ],
+  "key": {
+    "#": {
+      "item": "create:mechanical_drill"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "R": {
+      "item": "cobblegenplus:generator_casing"
+    },
+    "C": {
+      "item": "cobblegenplus:generator_core_part2"
+    }
+  },
+  "result": {
+    "item": "cobblegenplus:generator_core_part3"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "GGGGG",
+    "BPHPB",
+    "BHCHB",
+    "BPHPB",
+    "GGGGG"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:copper_block"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "C": {
+      "item": "cobblegenplus:generator_core_part1"
+    },
+    "P": {
+      "item": "cobblegenplus:generator_powering_system"
+    },
+    "H": {
+      "item": "cobblegenplus:high_tech_redstone_components"
+    }
+  },
+  "result": {
+    "item": "cobblegenplus:generator_core_part2"
+  }
+}

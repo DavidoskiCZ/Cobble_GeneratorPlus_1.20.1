@@ -85,6 +85,9 @@ minecraft {
         client {
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', mod_id
+            //remap Create's mixin refmap
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
         }
 
         server {
@@ -121,6 +124,10 @@ repositories {
     // flatDir {
     //     dir 'libs'
     // }
+
+
+    //cobblegenmod
+    maven { url = "https://repo.u-team.info" }
 }
 
 dependencies {
@@ -145,6 +152,11 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+
+
+    implementation fg.deobf("info.u-team:u_team_core-forge-${minecraft_version}:${uteamcore_version}")
+    implementation fg.deobf("info.u-team:extreme_cobble_generator-forge-${minecraft_version}:${extremecobblegenerator_version}")
+    //compileOnly
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
@@ -205,4 +217,29 @@ publishing {
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}
+
+repositories {
+    maven {
+        name = 'tterrag maven'
+        url = 'https://maven.tterrag.com/'
+    }
+}
+dependencies {
+    implementation fg.deobf("com.simibubi.create:create-${create_minecraft_version}:${create_version}:slim") { transitive = false }
+    implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-${flywheel_minecraft_version}:${flywheel_version}")
+    implementation fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}")
+}
+
+repositories {
+    exclusiveContent {
+        forRepository {
+            maven {
+                url "https://cursemaven.com"
+            }
+        }
+        filter {
+            includeGroup "curse.maven:create-new-age:905861-4933380"
+        }
+    }
 }

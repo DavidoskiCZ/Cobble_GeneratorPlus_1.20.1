@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "BBBBB",
+    "B###B",
+    "B#I#B",
+    "B###B",
+    "BBBBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:copper_block"
+    },
+    "#": {
+      "item": "minecraft:iron_bars"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "cobblegenplus:powering_system_casing"
+  }
+}

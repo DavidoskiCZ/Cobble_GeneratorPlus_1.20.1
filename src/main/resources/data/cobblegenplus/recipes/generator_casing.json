@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "BBBBB",
+    "B###B",
+    "B#I#B",
+    "B###B",
+    "BBBBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "#": {
+      "item": "minecraft:iron_bars"
+    },
+    "I": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "cobblegenplus:generator_casing"
+  }
+}

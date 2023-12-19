@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#######",
+    "#BBBBB#",
+    "#B###B#",
+    "#B#E#B#",
+    "#B###B#",
+    "#BBBBB#",
+    "#######"
+  ],
+  "key": {
+    "E": {
+      "item": "cobblegenplus:generator_encased_casing"
+    },
+    "#": {
+      "item": "minecraft:iron_bars"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "cobblegenplus:generator_core_part1"
+  }
+}

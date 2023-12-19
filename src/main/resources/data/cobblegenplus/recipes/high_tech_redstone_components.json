@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "ASSPSSA",
+    "O1DPD1O",
+    "O2APA2O",
+    "PPPCPPP",
+    "O2APA2O",
+    "O1DPD1O",
+    "ASSPSSA"
+  ],
+  "key": {
+    "C": {
+      "item": "cobblegenplus:generator_casing"
+    },
+    "A": {
+      "item": "cobblegenplus:advanced_redstone_components"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "minecraft:sticky_piston"
+    },
+    "O": {
+      "item": "minecraft:observer"
+    },
+    "D": {
+      "item": "minecraft:daylight_detector"
+    },
+    "1": {
+      "item": "minecraft:slime_block"
+    },
+    "2": {
+      "item": "minecraft:honey_block"
+    }
+  },
+  "result": {
+    "item": "cobblegenplus:high_tech_redstone_components"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#########",
+    "#GGGGGGG#",
+    "#AAPPPAA#",
+    "#ENHCHNE#",
+    "#ENCCCNE#",
+    "#ENHCHNE#",
+    "#EEEEEEE#",
+    "#GGGGGGG#",
+    "#########"
+  ],
+  "key": {
+    "C": {
+      "item": "cobblegenplus:generator_core_complete"
+    },
+    "H": {
+      "item": "cobblegenplus:high_tech_redstone_components"
+    },
+    "G": {
+      "item": "cobblegenplus:generator_glass"
+    },
+    "A": {
+      "item": "cobblegenplus:advanced_redstone_components"
+    },
+    "P": {
+      "item": "cobblegenplus:generator_power_intake"
+    },
+    "N": {
+      "item": "cobblegenplus:nether_star_block"
+    },
+    "#": {
+      "item": "cobblegenplus:generator_casing"
+    },
+    "E": {
+      "item": "cobblegenplus:generator_encased_casing"
+    }
+  },
+  "result": {
+    "item": "extremecobblegenerator:generator"
+  }
+}

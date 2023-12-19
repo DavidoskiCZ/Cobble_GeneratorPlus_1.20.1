@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "1HBH1",
+    "HB2BH",
+    "B2C2B",
+    "HB2BH",
+    "1HBH1"
+  ],
+  "key": {
+    "1": {
+      "item": "cobblegenplus:generator_casing"
+    },
+    "H": {
+      "item": "cobblegenplus:high_tech_redstone_components"
+    },
+    "C": {
+      "item": "cobblegenplus:generator_core_part4"
+    },
+    "B": {
+      "item": "cobblegenplus:nether_star_block"
+    },
+    "2": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "cobblegenplus:generator_core_complete"
+  }
+}

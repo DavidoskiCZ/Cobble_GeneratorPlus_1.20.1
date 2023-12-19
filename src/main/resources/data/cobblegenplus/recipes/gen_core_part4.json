@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "EEEEE",
+    "ESSSE",
+    "HHCHH",
+    "HNNNH",
+    "HNNNH"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:emerald_block"
+    },
+    "S": {
+      "item": "minecraft:shulker_box"
+    },
+    "C": {
+      "item": "cobblegenplus:generator_core_part3"
+    },
+    "N": {
+      "item": "minecraft:ender_chest"
+    },
+    "H": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "cobblegenplus:generator_core_part4"
+  }
+}

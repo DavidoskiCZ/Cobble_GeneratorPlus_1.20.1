@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "QL1LQ",
+    "LTRTL",
+    "2RCR2",
+    "LTRTL",
+    "QL1LQ"
+  ],
+  "key": {
+    "C": {
+      "item": "cobblegenplus:generator_casing"
+    },
+    "R": {
+      "item": "minecraft:redstone_dust"
+    },
+    "T": {
+      "item": "minecraft:redstone_torch"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "L": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "1": {
+      "item": "minecraft:repeater"
+    },
+    "2": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "result": {
+    "item": "cobblegenplus:advanced_redstone_components"
+  }
+}

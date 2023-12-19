@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " ENE ",
+    "CPHPC",
+    "CHHHC",
+    "CPHPC",
+    "#####"
+  ],
+  "key": {
+    "T": {
+      "item": "create:electron_tube"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "C": {
+      "item": "cobblegenplus:generator_casing"
+    },
+    "H": {
+      "item": "cobblegenplus:high_tech_tech_redstone_components"
+    },
+    "P": {
+      "item": "cobblegenplus:generator_powering_system"
+    },
+    "#": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "result": {
+    "item": "cobblegenplus:generator_power_intake"
+  }
+}

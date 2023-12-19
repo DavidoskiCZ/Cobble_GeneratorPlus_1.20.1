@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "TTTTT",
+    "TGGGT",
+    "TGCGT",
+    "TGGGT",
+    "TTTTT"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:tinted_glass"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "C": {
+      "item": "cobblegenplus:generator_casing"
+    }
+  },
+  "result": {
+    "item": "cobblegenplus:generator_glass"
+  }
+}

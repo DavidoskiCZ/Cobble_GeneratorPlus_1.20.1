@@ -17,6 +17,12 @@ public class ModItems {
     public static final RegistryObject<Item> GENERATOR_CASING = ITEMS.register("generator_casing",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> GENERATOR_ENCASED_CASING = ITEMS.register("generator_encased_casing",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> POWERING_SYSTEM_CASING = ITEMS.register("powering_system_casing",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> GENERATOR_GLASS = ITEMS.register("generator_glass",
             () -> new Item(new Item.Properties()));
 

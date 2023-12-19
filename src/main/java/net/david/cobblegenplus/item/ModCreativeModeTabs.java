@@ -40,6 +40,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.GENERATOR_POWER_INTAKE.get());
                         pOutput.accept(ModItems.GENERATOR_POWERING_SYSTEM.get());
                         pOutput.accept(ModItems.GENERATOR_CASING.get());
+                        pOutput.accept(ModItems.GENERATOR_ENCASED_CASING.get());
+                        pOutput.accept(ModItems.POWERING_SYSTEM_CASING.get());
                         pOutput.accept(ModItems.GENERATOR_GLASS.get());
 
                         pOutput.accept(ModBlocks.NETHER_STAR_BLOCK.get());
