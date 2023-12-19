@@ -8,7 +8,7 @@
     "#####"
   ],
   "key": {
-    "T": {
+    "E": {
       "item": "create:electron_tube"
     },
     "N": {
@@ -18,7 +18,7 @@
       "item": "cobblegenplus:generator_casing"
     },
     "H": {
-      "item": "cobblegenplus:high_tech_tech_redstone_components"
+      "item": "cobblegenplus:high_tech_redstone_components"
     },
     "P": {
       "item": "cobblegenplus:generator_powering_system"
